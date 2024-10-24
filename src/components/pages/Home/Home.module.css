@@ -1,0 +1,49 @@
+.home {
+    padding: 20px;
+    word-wrap: break-word;  /* Faz com que o texto quebre quando necessário */
+
+    
+  }
+  
+  .home h1 {
+    color: #13065d; 
+    margin: 10px 0 ;
+    text-align: center;
+    word-wrap: break-word;  /* Faz com que o texto quebre quando necessário */
+
+        
+  }  
+    @font-face {        
+      font-family: 'Cloister Black Light';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Cloister Black Light'), url('CloisterBlack.woff') format('woff');
+      }
+
+     h1 {
+      font-family:'Cloister Black Light';
+      font-weight:normal;
+    
+     
+      height: 100%; /* Texto ocupará 100% da altura da div */
+      text-align: center; /* Alinha o texto ao centro */
+      font-size: 20px;
+      background-color: blueviolet;
+      
+     }
+
+      /*responsividade do banner e fotos*/
+  @media (max-width: 525px) {
+    .h1 {
+
+      background-color: red;
+
+    }
+  
+  }
+      
+
+
+
+
+

@@ -1,0 +1,42 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 15px;
+    padding: 20px;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .photo img:hover {
+    transform: scale(1.05);
+  }
+
+  .home {
+    padding: 20px;
+  }
+  
+  .home h1 {
+    color: #13065d; 
+    margin: 10px 0 ;
+    text-align: center;
+        
+  }  
+    @font-face {        
+      font-family: 'Cloister Black Light';
+      font-style: normal;
+      font-weight: normal;
+      src: local('Cloister Black Light'), url('CloisterBlack.woff') format('woff');
+      }
+
+     h1 {
+      font-family:'Cloister Black Light';
+      font-weight:normal;
+      font-size: 42px;
+      
+     }
+  

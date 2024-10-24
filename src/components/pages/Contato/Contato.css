@@ -1,0 +1,100 @@
+.contato-form {
+  width: 100%;
+  max-width: 500px; /* Adjust as needed */
+  margin: 20px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Light background */
+}
+
+.contato-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contato-form input,
+.contato-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.contato-form textarea {
+  height: 120px; /* Adjust textarea height as needed */
+}
+
+.contato-form button[type="submit"] {
+  background-color: #13065d; /* Example button color */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.contato-form button[type="submit"]:hover {
+  background-color: #09d310; /* Example hover color */
+}
+
+/* Optional: Style for error messages */
+.contato-form .error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.contato-form {
+  width: 100%;
+  max-width: 500px; /* Adjust as needed */
+  margin: 20px auto;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Light background */
+}
+
+.contato-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.contato-form input,
+.contato-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.contato-form textarea {
+  height: 120px; /* Adjust textarea height as needed */
+}
+
+.contato-form button[type="submit"] {
+  background-color: #13065d; /* Example button color */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.contato-form button[type="submit"]:hover {
+  background-color: #09d310; /* Example hover color */
+}
+
+/* Optional: Style for error messages */
+.contato-form .error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

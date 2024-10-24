@@ -1,0 +1,81 @@
+  .container1 {
+    display: flex; /* Exibe as divs lado a lado */
+    justify-content: space-between; /* Espaço entre as divs */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 22px; /* Espaçamento entre as divs */
+    max-width: 1366px; /* Limita a largura máxima do container */
+    margin: 20px; /* Centraliza o container na página */
+    padding: 17px;
+    background-color: transparent;;
+    border-radius: 5px;
+    word-wrap: break-word; /* Quebra o texto automaticamente */
+    overflow-wrap: break-word; /* Alternativa moderna para*/
+  }
+  
+  .text {
+    flex: 1; /* O texto ocupa o espaço disponível */
+    padding-right: 27px; /* Espaçamento entre o texto e a imagem */
+    background-color:transparent yellow;
+    width: 125px;
+    text-overflow: clip;
+    line-height: 1.6;  
+    width: 100%; /* O texto vai ocupar 100% da largura da div */  
+    
+  }
+  
+  .image{
+    flex: 0 0 475px; /* A imagem terá uma largura fixa */
+    
+    
+  }
+  
+  .image img {
+    width: 100%; /* A imagem ocupará toda a largura da div de imagem */
+    border-radius: 15px;
+  
+   
+  }
+
+  .container1 h2 {
+
+    color:rgb(28, 27, 30);
+    margin-bottom: 14px;
+    float: top;
+    font-size: 25px;
+    margin-top: 20px; 
+    margin-left: 25px;
+    margin-right: 20;
+    background-color: transparent;
+    text-align: start;
+  }
+
+  .container1 h3 {
+    color:rgb(64, 14, 111);
+    font-size: 19px;
+    float: top;
+    font-size: 20px;
+    margin-top: 90px; 
+    margin-left: 25px;
+   
+  }
+
+  .container1 p {
+
+    float: right;
+    margin-bottom: 36px;
+    font-size: 18px;
+    background-color: transparent;
+    margin-left: 25px;
+    line-height: 130%;
+    
+  }
+
+  
+  /*responsividade do banner e fotos*/
+  @media (max-width: 768px) {
+     .container1 {
+
+      flex-direction: column;
+      width: 100%;
+     }
+    }

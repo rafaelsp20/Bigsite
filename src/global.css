@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: green;
+    align-items: center;
+    margin: auto;
+}
+
+.site-content {
+    
+  
+  padding: 15px;
+  width: 1366px;
+  width: 100%;
+  background-color: #6e717e;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 100vh; /* Para garantir que o conteúdo ocupe a altura total da tela */
+  align-items: center;
+  border-radius: 2px;
+  margin: 0;
+   
+}
+
+.site-content p {
+
+  font-size: 22px;
+  color: #e8e0e0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 25px 70px;
+  text-align: center;
+  font-weight: bold;
+}
+
+  h2 {
+
+  color: rgb(10, 7, 56);
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 55px;
+}  
+
+  
+  .fotos-onibus {   
+        
+    margin-top: 30px;
+    padding: 0;
+    display:flex;   
+    align-items: center;
+    border: 0px solid rgb(135, 133, 133);
+    height: 232px;
+    background-color: transparent;
+    flex-wrap: wrap; /* Permite que os itens quebrem linha quando o espaço acabar */
+    text-align: center;
+  }
+
+  .box p {
+
+    color: #E1E115;
+    margin-top: 10px;
+    height: 35px;
+    background-color: #A3CEF1;
+    border-radius: 55px;
+    
+  }
+  
+  .fotos-onibus h2 {
+
+    color: red;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .box {
+    flex: 1; /* Distribui o espaço igualmente entre os elementos */
+    padding: 0px;
+    background-color: blue;
+    text-align: center;
+    min-width: 120px; /* Define um tamanho mínimo para as divs */
+    box-sizing: border-box;
+    border: 0px solid red;  
+    height: 100%;
+ 
+   
+   /* background-image: url('img/bus1.png'); 
+    background-size: cover;        /* A imagem cobre toda a div */  
+  }
+
+  .box img {
+
+    width: 100%;  
+    height: 100%;
+    margin: 0;  
+    border: 0px solid rgb(82, 79, 79);
+   
+  }
+  
+  /* Estilo para o header */
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /* Estilo para o main */
+  main {
+    padding: 20px;
+  }
+  
+  /* Estilo para o footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px 0;
+    background-color: #007bff;
+    color: white;
+  }
+
+  .conteudo-missao-visao-valores {
+   
+    display: flex;
+   /* justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;    /* Centraliza verticalmente */   
+    justify-content: space-evenly;    
+      
+  }
+
+  .conteudo-texto{
+ 
+    display: flex;    
+    justify-content: space-evenly;    
+    margin-top: 25px;
+    height: 250px;
+    border: 1px solid #E1E115;
+
+  }
+
+  .conteudo-texto-p {    
+
+    background-color: transparent; 
+    font-size: 14px;
+    height: 165px;
+    width: 350px;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 5px;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 25px;   
+  
+  }
+
+  .conteudo-texto strong {
+
+    color:rgb(10, 7, 56);
+  }
+
+  .conteudo-texto h1 {
+
+    color: #545252;
+    padding: 45px 45px;
+  }
+
+  .conteudo-texto p {
+    color:#353530;
+    font-size: 32px;
+  }
+
+  .conteudo-img {
+
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    margin-right: 20px; /* Espaço entre a div e o texto */
+
+  }
+
+  .frase {
+
+    color:#13065d;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin: 135px 0 5px 0;
+  }
+
+  .custon-hr {
+
+    width: 100%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid red;
+    background-color: #dddddd;
+  }
+
+
+  .btn {
+    background-color: #6b6e6e;
+    color: rgb(243, 248, 229);
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 25%;
+    margin:auto;
+    transform:  translateY(20%);  
+    margin-top: 30px; 
+  
+}
+
+ .orcamento {
+
+  background-image: url('./img/fundo.png');
+  height: 140px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;  
+  
+ }
+
+ .orcamento h2 {
+
+  color: #fafafb;
+  font-size: 40px;
+  margin-right: 52px;
+  margin-bottom: 45px;
+  margin-left: 165px;
+  
+ }
+
+ .orcamento-btn {
+
+  background-color: #13065d;
+  color: rgb(243, 248, 229);
+  border: none;
+  margin-top: 40px;
+  margin-left: 45px;
+  margin-bottom: 7px;
+  padding: 15px 30px;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 18%;
+  height: 15px;
+  transform:  translateY(20%);   
+  text-align: center;
+ }
+
+.btn:hover {
+    background-color: #2d2e2f;
+}
+
+.btn:active {
+    background-color: #1c6c9c;
+}
+
+.conteudo_principal {
+  width: 100%;
+  max-width: 960px; /* Define a largura máxima da div */
+  padding: 20px;
+  background-color: rgb(249, 249, 249);
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+ /* word-wrap: break-word; /* Quebra o texto automaticamente */
+ /* overflow-wrap: break-word; /* Alternativa moderna para*/
+}
+
+
+  /*responsividade do banner e fotos*/
+  @media (max-width: 768px) {
+    .fotos-onibus {
+      flex-direction: column; /* As divs ficam em coluna (uma embaixo da outra) */
+      /*align-items: stretch;   /* As divs vão se esticar para 100% */
+      height: 550px;
+      width: 100%;
+    }
+  
+    .box {
+      width: 100%; /* As divs ocuparão 100% da largura da tela */
+      height: 185px;
+      margin-top: 10px;
+      margin-bottom: 85px;
+
+    } 
+    .conteudo-missao-visao-valores {
+
+      flex-direction: column;
+      width: 50%;    
+    }
+
+    .site-content {
+
+      width: 45%;
+      margin-left: 5px;
+      border-radius: 25ox;
+    }
+
+    .site-content p{
+      margin: 2px 0px 0px 15px;
+      text-align: center;      
+      font-size: 14px;
+      background-color: transparent;
+      width: 98%;
+    }
+
+     .container1 {
+
+      flex-direction: column;
+      width: 100%;
+     }
+ 
+}
+    
+  
+
+
