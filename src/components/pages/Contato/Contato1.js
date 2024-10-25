@@ -37,11 +37,11 @@ function ContatoForm() {
     }
   };
 
-  return (<>
+  return (<>  
 
 <div className="conteudo_principal">
     <Header />   
-    <form className="contato-form" onSubmit={handleSubmit}>
+    <form className="contato-form" data-netlify="true" onSubmit={handleSubmit}>
       <div>
         <label htmlFor="nome">Nome:</label>
         <input
