@@ -41,7 +41,7 @@ function ContatoForm() {
 
 <div className="conteudo_principal">
     <Header />   
-    <form className="contato-form" data-netlify="true" onSubmit={handleSubmit}>
+    <form className="contato-form" data-netlify="true" data-netlify-recaptcha="true" onSubmit={handleSubmit}>
       <div>
         <label htmlFor="nome">Nome:</label>
         <input
