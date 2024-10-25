@@ -6,8 +6,6 @@ import Teste from "./components/pages/Teste/Teste";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-//  <Route path="/" element={<Home />} /> //* index *//}
-
 function AppRoutes() {
   return (
     <BrowserRouter>
