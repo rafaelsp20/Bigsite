@@ -1,4 +1,3 @@
-import Home from "./components/pages/Home/Home";
 import Servico from "./components/pages/Servico/Servico";
 import Galeria from "./components/pages/Galeria/Galeria";
 import ContatoForm from "./components/pages/Contato/Contato1";
