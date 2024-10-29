@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Home.module.css";
 import Header from "../../Header/Header";
 import Banner from "../../Banner";
+//import Banner from "./Banner";
 
 import foto from '../../../img/bus1.png'
 import foto1 from '../../../img/bus2.png'
@@ -65,9 +66,8 @@ function Home() {
         <div className="orcamento">        
               <h2>Se Interessou?</h2>      
               <div className="orcamento-btn">Solicite um Orçamento</div>    
-        </div>
-        <Footer />
-      
+        </div>       
+        <Footer />      
     </>
   );
 }
