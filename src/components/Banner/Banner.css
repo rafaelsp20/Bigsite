@@ -62,5 +62,15 @@
     height: 250px;
     min-height: 75%;
   }
+}
+  @media (min-width: 358px) and (max-width: 999px) {
+
+    /* App.css */
+.banner-container {
+  width: 515px; /* Largura do contêiner */
+  margin: 0 auto; /* Centralizar */
+}
+
+   
  
  }
