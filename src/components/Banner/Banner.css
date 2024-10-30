@@ -67,9 +67,11 @@
 
     /* App.css */
 .banner-container {
-  width: 375px; /* Largura do contêiner */
-  margin: 0 auto; /* Centralizar */
-  border: 1px solid #faf;
+  width: 100%;
+  max-width: 960px;
+  /*width: 375px; /* Largura do contêiner */
+  margin: auto; /* Centralizar */
+  border: 0px solid #faf;
 }
 
    
