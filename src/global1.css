@@ -2,8 +2,8 @@
     width: 100%;
     max-width: 1366px; /* Define a largura máxima da div */
     padding: 20px;
-    background-color: rgb(249, 249, 249);
-    border: 1px solid #ddd;
+    background-color: white;
+    border: 0px solid #ddd;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
     word-wrap: break-word; /* Quebra o texto automaticamente */

@@ -54,7 +54,7 @@ function Teste() {
 
         <div className="fotos-onibus">
           <div className="box">
-            <img src={foto} alt="foto onibus" />
+            <img src={foto} alt="foto_1onibus" />
             <div className="btn">NeoBus</div>
           </div>
           <div className="box">

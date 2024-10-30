@@ -5,7 +5,7 @@
 
 body {
 
-  background-color: #A9A9A9;
+  background-color: white;
   align-items: center;
   margin: auto;
              
@@ -299,7 +299,7 @@ h2 {
 
       .conteudo_principal {
   
-      background-color: #A9A9A9;
+      background-color:white;
       margin: 0;
       padding: 0;
       }
@@ -318,12 +318,12 @@ h2 {
   
         padding: 0px;
         width: 100%;
-        background-color:green;
+        background-color:rgb(7, 65, 199);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         min-height: 20vh; /* Para garantir que o conteúdo ocupe a altura total da tela */
         align-items: center;
         border-radius: 7px;
-        margin: 25px 2px;
+        margin: 40px 7px 40px 2px;
          
       }
       .frase {
@@ -333,9 +333,39 @@ h2 {
         font-size: 18px;
         font-weight: bold;
         text-align: center;
-        margin: 25px 0 15px 0;
+        margin: 45px 0 15px 0;
         background-color: #dcdcd1;
       }
+
+      .fotos-onibus {   
+        
+        background-color: black;
+        width: 100%;
+     
+      }
+    
+      .box {
+        
+        background-color: blue;
+        margin: 25px 0 37px 0;
+        color: white;
+       
+      }
+      .btn {
+        background-color: #6b6e6e;
+        color: rgb(243, 248, 229);
+        border: none;
+        padding: 10px 30px;
+        font-size: 16px;
+        border-radius: 7px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        width: 25%;
+        margin:auto;
+        transform:  translateY(20%);  
+        
+      
+    }
       
     }
 
