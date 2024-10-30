@@ -18,6 +18,7 @@ h1 {
     font-size: 24px;
     margin-top: 25px;
     margin-bottom: 15px;
+    text-align: center;
   
 }
 
@@ -225,7 +226,7 @@ h2 {
 
   
 
-  /*responsividade do banner e fotos*/
+  /*responsividade do banner e fotos
   @media (max-width: 1000px) {
     .container123 {
 
@@ -251,14 +252,14 @@ h2 {
       }
       .fotos-onibus {
         flex-direction: column; /* As divs ficam em coluna (uma embaixo da outra) */
-        /*align-items: stretch;   /* As divs vão se esticar para 100% */
+        /*align-items: stretch;   /* As divs vão se esticar para 100% 
         height: 850px;
         width: 75%;
-        align-items: center;
-      }
+        align-items: center;*/
+    /*  }
     
       .box {
-        width: 100%; /* As divs ocuparão 100% da largura da tela */
+        width: 100%; /* As divs ocuparão 100% da largura da tela 
         height: 185px;
         margin-top: 10px;
         margin-bottom: 45px;
@@ -282,16 +283,16 @@ h2 {
         background-color: #6e717e;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         min-height: 25vh; /* Para garantir que o conteúdo ocupe a altura total da tela */
-        align-items: center;
+      /*  align-items: center;
         border-radius: 7px;
         margin-left: 70px;
          
       }
-   }
+   }*/
 
     /*responsividade do banner e fotos*/
 
-    @media (min-width: 358px) and (max-width: 999px) {
+    @media (min-width: 358px) and (max-width: 460px) {
 
       body{
         margin: 0;
@@ -339,7 +340,7 @@ h2 {
 
       .fotos-onibus {   
         
-        background-color: black;
+        background-color: transparent;
         width: 100%;
      
       }
