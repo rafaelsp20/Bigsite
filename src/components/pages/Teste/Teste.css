@@ -289,4 +289,54 @@ h2 {
       }
    }
 
+    /*responsividade do banner e fotos*/
+
+    @media (min-width: 358px) and (max-width: 999px) {
+
+      body{
+        margin: 0;
+      }
+
+      .conteudo_principal {
+  
+      background-color: #A9A9A9;
+      margin: 0;
+      padding: 0;
+      }
+  
+      /* Estilos para telas médias, como desktops pequenos e tablets em paisagem */
+      h1 {
+        color: #4F4F4F;
+        margin: 25px 20px;
+        text-align: center;
+        word-wrap: break-word;  /* Faz com que o texto quebre quando necessário */
+    
+            
+      }  
+      .site-content {
+    
+  
+        padding: 0px;
+        width: 100%;
+        background-color:green;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        min-height: 20vh; /* Para garantir que o conteúdo ocupe a altura total da tela */
+        align-items: center;
+        border-radius: 7px;
+        margin: 25px 2px;
+         
+      }
+      .frase {
+
+        color:#13065d;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        margin: 25px 0 15px 0;
+        background-color: #dcdcd1;
+      }
+      
+    }
+
     

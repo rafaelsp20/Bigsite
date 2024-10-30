@@ -1,7 +1,7 @@
 .home {
     padding: 20px;
     word-wrap: break-word;  /* Faz com que o texto quebre quando necessário */
-
+    background-color:aqua;
     
   }
   
@@ -9,7 +9,9 @@
     color: #13065d; 
     margin: 10px 0 ;
     text-align: center;
+    font-size: 100px;
     word-wrap: break-word;  /* Faz com que o texto quebre quando necessário */
+    background-color:pink;
 
         
   }  
@@ -27,20 +29,30 @@
      
       height: 100%; /* Texto ocupará 100% da altura da div */
       text-align: center; /* Alinha o texto ao centro */
-      font-size: 20px;
+      font-size: 80px;
       background-color: blueviolet;
       
      }
+   
+    /*responsividade do banner e fotos*/
 
-      /*responsividade do banner e fotos*/
-  @media (max-width: 525px) {
-    .h1 {
+    @media (min-width: 358px) and (max-width: 767px) {
 
-      background-color: red;
-
-    }
+      .conteudo_principal {
   
-  }
+      background-color: rgb(192, 15, 15);
+      }
+  
+      /* Estilos para telas médias, como desktops pequenos e tablets em paisagem */
+      .home h1 {
+        color: #f00d70; 
+        margin: 10px 0 ;
+        text-align: center;
+        word-wrap: break-word;  /* Faz com que o texto quebre quando necessário */
+    
+            
+      }  
+    }
       
 
 

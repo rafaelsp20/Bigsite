@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Home.module.css";
 import Header from "../../Header/Header";
 import Banner from "../../Banner";
-//import Banner from "./Banner";
 
 import foto from '../../../img/bus1.png'
 import foto1 from '../../../img/bus2.png'
@@ -10,12 +9,10 @@ import foto2 from '../../../img/bus3.png'
 import Footer from '../../Footer';
 
 
-
 function Home() {
   return (
     <>    
-      <Header />         
-      
+      <Header /> 
       <div className={styles.home}>      
         <h1>Bem-vindo à Expresso Gordinho</h1>
         </div>

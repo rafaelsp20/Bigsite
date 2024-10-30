@@ -16,7 +16,7 @@ body{
   padding: 15px;
   width: 1366px;
   width: 100%;
-  background-color: #6e717e;
+  background-color: #f1f;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   min-height: 100vh; /* Para garantir que o conteúdo ocupe a altura total da tela */
   align-items: center;
@@ -326,7 +326,5 @@ body{
      }
  
 }
-    
-  
 
 
