@@ -367,6 +367,51 @@ h2 {
         
       
     }
+
+    .orcamento {
+
+
+      height: 150px;
+      background-size: 100%;
+      display: flex;
+      justify-content: flex-start;
+      margin-top:15px;  
+      background-image: url('../../../img/fundo.png');
+      background-size: cover;
+      
+     }
+    
+     .orcamento h2 {
+    
+      color: #fafafb;
+      font-size: 22px;
+      margin-right: 10px;
+      margin-bottom: 75px;
+      margin-left: 10px;
+      text-align: center;;
+      
+     }
+
+     .orcamento-btn {
+  
+      background-color: #13065d;
+      color: rgb(243, 248, 229);
+      border: none;
+      margin-top: 50px;
+      margin-left: 10px;
+      margin-right: 10px;     
+      margin-bottom: 7px;
+      padding: 8px 30px;
+      font-size: 12px;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      width: 25%;
+      height: 23px;
+      transform:  translateY(20%);   
+      text-align: center;
+     }
+   
       
     }
 
