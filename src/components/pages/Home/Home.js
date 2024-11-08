@@ -11,7 +11,8 @@ import Footer from '../../Footer';
 
 function Home() {
   return (
-    <>    
+    <>  
+         
       <Header /> 
       <div className={styles.home}>      
         <h1>Bem-vindo à Expresso Gordinho</h1>
@@ -64,7 +65,8 @@ function Home() {
               <h2>Se Interessou?</h2>      
               <div className="orcamento-btn">Solicite um Orçamento</div>    
         </div>       
-        <Footer />      
+        <Footer />  
+        
     </>
   );
 }
