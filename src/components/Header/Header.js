@@ -1,6 +1,6 @@
 import React from 'react';
-/*import { Link } from 'react-router-dom';
-import styles from './Header.module.css';*/
+import { Link } from 'react-router-dom';
+import styles from './Header.module.css';
 import Menu from './../../Menu';
 
 /*    <nav className={styles.navbar}>
@@ -12,8 +12,14 @@ import Menu from './../../Menu';
     </nav>**/
 
 function Header() {
-  return (<>
-    <Menu />
+  return (<> 
+   
+      <Menu />     
+      <br></br>
+      <br></br>
+ 
+   
+  
  </>);
 }
 
